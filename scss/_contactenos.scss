@@ -1,0 +1,67 @@
+
+.contactenos{
+    margin-top: 5rem;
+}
+
+.nombre1{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.nombre2{
+    font-size: 3rem;
+}
+
+
+ .formCont{
+    color: #3D348B;
+    font-size: 2rem;
+
+    label{
+        font-size: $fuente-chica;
+     }
+     input, textarea{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+
+     
+     }
+     textarea{
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+     }
+     button{
+        height: 2rem;
+        width: 5rem;
+        font-size: $fuente-chica;
+        
+     }
+    
+     .nombre1{
+        padding: 5rem;
+        font-size: 1.5rem;
+     }
+     
+    
+
+ }
+ .formUbi{
+    color:#3D348B;
+    font-size: 2rem;
+    iframe{
+        
+        height: 15rem;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 5px;
+        box-sizing: border-box;
+        
+    }           
+    .nombre2{
+        padding: 5rem;
+        font-size: 1.5rem;
+
+     }
+    }

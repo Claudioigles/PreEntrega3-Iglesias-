@@ -1,0 +1,2 @@
+/*Sirve para ignorar carpetas que no quiero subir al repo*/
+node_modules/

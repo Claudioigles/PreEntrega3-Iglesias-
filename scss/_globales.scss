@@ -1,0 +1,75 @@
+@import "variables";
+/*Aca hago un reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    /*1rem=10px pongo esta etiqueta para que despues cuando use rem sea mas universal*/
+    font-size: 72.5%;
+}
+body{
+    background-image: url(../img/Fondototal.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;    
+    background-attachment: fixed;
+    margin: 0;
+   
+}
+header{
+    
+    background-color: $bg-body;
+    position: fixed;
+    top:0 ;
+    z-index: 1;
+    display: flex;
+    align-items: center;           
+}
+
+.color-nav{    
+    font-size: $fuente-mediana;
+   
+    a{
+        color: white; 
+       
+       
+
+    }
+    li:hover{
+        background-color: #d3e761;
+    }
+     
+}
+
+.navbar-toggler{
+    background-color: white;
+    
+   
+}
+
+
+.main{
+    padding: 7rem;
+}
+.foot{
+    color: #3D348B;
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:left ;
+    align-items: center;
+}   
+
+img{
+    max-width: 100%;/*Propiedad para que las imagenes se adapten al tamaño de la pantalla*/
+}
+a{
+    text-decoration: none;
+    font-style: italic;
+    text-align: left;
+    color:white;  
+}
+

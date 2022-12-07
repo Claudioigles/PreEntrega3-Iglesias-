@@ -1,0 +1,290 @@
+@media screen and (max-width:$pantalla-xg){
+    .formCont{
+        width: 100%;
+    }
+    
+    .contenedor{
+        width: 100%;
+
+
+    }
+    .maine{
+        box-sizing: border-box;
+        h1{
+            
+            padding: 8rem;
+            color: black;
+        }
+    }
+    .box{
+       
+        img{
+            width: 20rem;
+            height: 20rem;
+        }
+        
+        
+}
+
+}
+
+@media screen and (max-width:$pantalla-grande){ 
+    .formCont{
+        width: 100%;
+    }
+    
+    .maine{
+        box-sizing: border-box;
+        h1{
+            
+            padding: 8rem;
+            color: black;
+        }
+    }
+    .especialidades{
+        width: 100%;
+    }
+    .columna1{
+        flex-direction: column;
+    }
+    .columna2{
+        flex-direction: column;
+    }
+    .contenedor{
+        width: 80%;
+
+
+    }
+    
+    .video{
+        margin: 0;
+        padding: ($separacion/2);;
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        row-gap: ($separacion/2);
+        object-fit: cover;
+    }
+    p{
+        font-size: $fuente-chica;
+    }
+    h1{
+        font-size: $fuente-mediana;
+    }
+  
+    
+}
+@media screen and (max-width:$pantalla-mediana){
+    .contactenos{
+        width: 100%;
+        .formCont{
+            margin-bottom: 8rem;
+            padding: 0;
+            width: 100%;
+        }
+       
+    }
+    .formUbi{
+         padding: 0;
+         iframe{
+            width: 100%;
+         }
+    }
+    
+    .contenedor{
+        width: 100%;
+
+
+    }
+    .especialidades{
+        width: 100%;
+    }
+
+    
+    #p__Descripcion{
+        img{
+            width: 35% ;
+            height: 20% ;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .maine{
+        box-sizing: border-box;
+        h1{
+            font-size: 1.5rem;
+            padding: 10rem;
+            color: red;
+        }
+    }
+
+
+    .box{
+        display: inline;
+        img{
+            width:25%;
+            height: 25%;
+        }
+        
+    }
+    .text{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    
+    .columna1{
+       flex-direction: column;
+       font-size: 1.8rem;
+    }
+    .columna2{
+        flex-direction: column;
+        font-size: 1.8rem;
+    }
+
+    .video{
+        margin: 0;
+        padding: 7rem;
+        width: 60%;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        row-gap: 8rem;
+        object-fit: cover;
+        iframe{
+            width:35% ;
+            height: 35% ;   
+        }
+    }
+    .mainCuerpoMedico{
+        box-sizing: border-box;
+        img{
+            height:40% ;
+            width: 80%;
+        }   
+        h1{
+            padding: 5rem;
+            font-size: 1.5rem;
+        }
+    }
+        
+    p{
+        font-size: $fuente-chica;
+    }
+    h1{
+        font-size: $fuente-mediana;
+    }
+   
+ 
+}
+
+@media screen and (max-width:$pantalla-chica){
+    .contactenos{
+        width: 100%;
+        .formCont{
+            margin-bottom: 5rem;
+            padding: 0;
+        }
+       
+    }
+    .formUbi{
+         padding: 0;
+    }
+    .especialidades{
+        width: 100%;
+    }
+   
+   
+    
+    
+    .contenedor{
+        width: 40%;
+
+
+    }
+    #p__Descripcion{
+        img{
+            width: 15rem ;
+            height: 10rem ;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    .maine{
+        box-sizing: border-box;
+        h1{
+            font-size: 1rem;
+            padding: 8rem;
+            color: green;
+        }
+    }
+
+    .box{
+            display: inline;
+            img{
+                width:10rem;
+                height: 10rem;
+            }
+            
+            
+    }
+    .columna1{
+        flex-direction: column;
+        
+        font-size: 1.2rem;
+        
+    }
+    .columna2{
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+    .text{
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    
+    .video{
+        margin: 0;
+        padding: 2rem;
+        
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        row-gap: 2rem ;
+        object-fit: cover;
+        iframe{
+            width: 15rem;
+            height: 15rem;
+        }
+        
+
+    }
+    .mainCuerpoMedico{
+        img{
+            height: 20rem ;
+            width: 40rem;
+        }   
+        h1{
+            padding: 5rem;
+            font-size: 1rem;
+        }
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: $fuente-chica;
+    }
+    
+
+     
+    
+}
+

@@ -1,0 +1,30 @@
+
+/*Variables para los colores y fuentes*/
+$bg-body: black;
+$fuente-grande: 3rem;
+$fuente-chica: 1rem;
+$fuente-muygrande:5rem;
+$fuente-mediana: 2rem;
+
+/*Variable para las media queries*/
+
+$pantalla-mediana: 768px;
+$pantalla-grande: 992px;
+$pantalla-xg: 1200px;
+$pantalla-chica:460px;
+
+/*MIXIN*/
+@mixin box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*MIXIN COn PArametros(Se puede pasar en todos los lugares donde requieran un width y un height juntos. NO POR SEPARADOS)*/
+@mixin imag($ancho,$alto){
+    width:$ancho;
+    height:$alto;
+}
+
+/*OPeraciones*/
+/*Separacion... SI LO USO CON ALGUNA OPERACION MATEMATICA. CALC($SEPARACIO / 2). SI LO USO CON + O - HAY QUE ESPECIFICAR REM calc($separacion - 2REM);. SI LO USO * O / NO HACE FALTA EL REM*/
+$separacion:10rem;
